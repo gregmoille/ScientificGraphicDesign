@@ -15,15 +15,15 @@ warnings.simplefilter("ignore")
 from SecretColors import Palette
 from glob import glob
 from scipy import constants as cts
-from mpl_toolkits.axes_grid1.inset_locator import (
-    Bbox,
-    TransformedBbox,
-    BboxPatch,
-    BboxConnector,
-    inset_axes, 
-    InsetPosition, 
-    mark_inset
-)
+# from mpl_toolkits.axes_grid1.inset_locator import (
+#     Bbox,
+#     TransformedBbox,
+#     BboxPatch,
+#     BboxConnector,
+#     inset_axes, 
+#     InsetPosition, 
+#     mark_inset
+# )
 import numpy as np
 from SecretColors import ColorMap
 from matplotlib.ticker import FormatStrFormatter

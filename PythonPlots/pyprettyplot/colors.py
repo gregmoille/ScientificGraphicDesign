@@ -95,12 +95,6 @@ pio.templates["google"] = go.layout.Template(
     ],
     layout=tmplt,
 )
-# pio.templates["ibm_light"] = go.layout.Template(
-#    layout_colorway=["#8a3ffc", "#33b1ff", "#007d79", "#ff7eb6", "#fa4d56",
-#                 "#fff1f1", "#6fdc8c", "#4589ff", "#d12771",
-#                "#d2a106", "#08bdba", "#bae6ff", "#ba4e00",
-#                 "#d4bbff",],
-#    layout = tmplt)
 
 pio.templates["ibm_light"] = go.layout.Template(
     layout_colorway=ibm_light_palette12, layout=tmplt
@@ -170,9 +164,8 @@ nord = dict(
 )
 
 tmplt = pio.templates["plotly_white"].layout
-tmplt.titlefont.update(family="Aktiv Grotesk Cd", size=18)
-tmplt.title.update(x=0.05)
-tmplt.font.update(family="Aktiv Grotesk Cd", color=nord["PolarNight"][-1])
+tmplt.title.update(x=0.05, font = dict(family="Aktiv Grotesk Cd", size=18))
+tmplt.font.update(family="Aktiv Grotesk Cd", color=nord["PolarNight"][0])
 tmplt.xaxis.tickfont.update(family="Decima")
 tmplt.yaxis.tickfont.update(family="Decima")
 tmplt.yaxis.title.font.update(family="Aktiv Grotesk Cd", size=16)
@@ -183,24 +176,21 @@ tmplt.yaxis.update(zeroline=False)
 tmplt.xaxis.update(
     showline=True,
     title_standoff = 0,
-    linecolor=nord["PolarNight"][-1],
+    linecolor=nord["PolarNight"][0],
     linewidth=0.5 / 0.5,
     ticks="outside",
     zeroline=False,
-    tickcolor=nord["PolarNight"][-1],
+    tickcolor=nord["PolarNight"][0],
     tickwidth=0.5 / 0.5,
     ticklen=2 / 0.5,
 )
 
-pio.templates["nord_grid"] = go.layout.Template(layout_colorway=clrs_nords, layout=tmplt)
-tmplt = copy(pio.templates["nord_grid"].layout)
-
 tmplt.yaxis.update(showline=True,
-    linecolor=nord["PolarNight"][-1],
+    linecolor=nord["PolarNight"][0],
     linewidth=0.5 / 0.5,
     ticks="outside",
     zeroline=False,
-    tickcolor=nord["PolarNight"][-1],
+    tickcolor=nord["PolarNight"][0],
     tickwidth=0.5 / 0.5,
     ticklen=2 / 0.5,
     title_standoff = 0,
@@ -210,9 +200,8 @@ tmplt.xaxis.update(showline=True,showgrid = False)
 tmplt.update(margin_pad=0)
 clrs_nords = ["#356BA0", "#D18F98", "#499E4B", "#7181A3", "#844A84", "#7181A3", "#BC394C"]
 pio.templates["nord"] = go.layout.Template(layout_colorway=clrs_nords, layout=tmplt)
-
-# pio.templates.default = "nord"
-
+pio.templates["nord"].data.scatter = [go.Scatter(line_width = 1.5)]
+pio.templates["nord"].layout.legend.update(borderwidth = 0, font_size = 12,tracegroupgap = 2)
 
 def plotly_color(cycling=True, scheme="nature"):
     if scheme == "default":
@@ -275,12 +264,6 @@ def colorFader(
     c2 = np.array(mpl.colors.to_rgb(c2))
     return mpl.colors.to_hex((1 - mix) * c1 + mix * c2)
 
-
-# c1='#00ddff' #blue
-# c2='#ff001e' #red
-# n=len(RW)
-# colors = [colorFader(c1,c2,ii/n) for ii in range(n)]
-zclr = "#B1BDDA"
 
 def mpl_to_plotly(cmap, pl_entries=11, rdigits=15):
     scale = np.linspace(0, 1, pl_entries)
