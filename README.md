@@ -46,10 +46,9 @@ Beyond that, if there are some things that are of interest, I highly recommend t
     - Thinking with Type by Ellen Lupton
     - The Elements of Typographic Style by Robert Bringhurst
 
-# Figure for publication
+# Figure for Publication
 
-Here is a compilation of some tips and tricks for plotting, tweaking and creating figures for scientific publication.
-
+Here is a compilation of some tips and tricks for plotting, tweaking, and creating figures for scientific publication.
 ## [Plotting data](./Plotting/)
 
 ## [Useful Adobe Illustrator stuff and tips](./IllustratorsStyles)
@@ -61,9 +60,9 @@ Here is a compilation of some tips and tricks for plotting, tweaking and creatin
 ## [Blender boiler-plate files and assets](./BlenderBoilerPlates)
 
 
-# Making slides 
+# Making Slides
 
-Here are some tips for the making of a slide-deck, where you can do it with Beamer (a LaTeX version of powerpoint) or how to make the set your Adobe Illustrator figure for easy transition in a slide deck
+Here are some tips for creating a slide deck, where you can use Beamer (a LaTeX version of PowerPoint) or how to set your Adobe Illustrator figure for easy transition in a slide deck.
 
 ## [Making life easier for slide deck figures](./SlideDeckFigures/)
 
