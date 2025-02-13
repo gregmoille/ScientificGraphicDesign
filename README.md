@@ -49,13 +49,10 @@ Beyond that, if there are some things that are of interest, I highly recommend t
 # Figure for Publication
 
 Here is a compilation of some tips and tricks for plotting, tweaking, and creating figures for scientific publication.
+
 ## [Plotting data](./Plotting/)
 
 ## [Useful Adobe Illustrator stuff and tips](./IllustratorsStyles)
-
-## [Some Useful Adobe Illustrator Examples](./IllustratorsStyles/Examples)
-
-## [Making Presentation ready figures with Adobe Illustrator](./IllustratorsStyles/SlideDeckFigures)
 
 ## [Blender boiler-plate files and assets](./BlenderBoilerPlates)
 
