@@ -64,3 +64,26 @@ Plotting the data will probably get you up to 3/4 of the way to a complete figur
 
 If you did that correctly, then the work that will be done in Adobe Illustrator/Inkscape/etc. will be much easier. Some tips for Adobe Illustrator are provided here.
 
+## Some tips for archiving
+
+1. Create a GitHub repo (at least private at first) that you name after your paper (e.g. `202X-MySuperPaper`), and clone it to where you store your paper data.  
+2. Process your data such that every trace plot/subplot is a simple CSV file that can be easily loaded (e.g. `df = pd.read_csv('figure1a.csv')`).  
+3. Store each of your paper data in the following way.
+```
+    ├── 202X-MySuperPaper
+    │   ├── figure1
+    │   │   ├── figure1a.csv
+    │   │   ├── figure1b.csv
+    │   ├── figure2
+    │   │   ├── figure2a.csv
+    │   │   ├── figure2b.csv
+    │   ├── svg
+    │   │   ├── figure1.svg
+    │   │   ├── figure2.svg
+    ├── 202X-MySuperPaper_Notebook.ipynb
+    └── .gitignore
+```
+4. In the `202X-MySuperPaper_Notebook.ipynb`, you create each plot using the `pyprettyplot` package, loading all the necessary data in a simple manner and saving the figure as an SVG file in the `svg` folder.  
+5. You **version control** this repository using Git (and if you don't know Git... well, you better learn it then).  
+6. This folder is different from your LaTeX manuscript folder, where you will store the final figures. This prevents over-bloating your manuscript folder and makes it easier to version control with Overleaf (you should not use Overleaf in a different manner, by the way).  
+7. (DO NOT STORE IT IN A CLOUD FOLDER; Git doesn't do well with that.)
