@@ -164,12 +164,12 @@ nord = dict(
 )
 
 tmplt = pio.templates["plotly_white"].layout
-tmplt.title.update(x=0.05, font = dict(family="Aktiv Grotesk Cd", size=18))
-tmplt.font.update(family="Aktiv Grotesk Cd", color=nord["PolarNight"][0])
-tmplt.xaxis.tickfont.update(family="Decima")
-tmplt.yaxis.tickfont.update(family="Decima")
-tmplt.yaxis.title.font.update(family="Aktiv Grotesk Cd", size=16)
-tmplt.xaxis.title.font.update(family="Aktiv Grotesk Cd", size=16)
+tmplt.title.update(x=0.05, font = dict(family="Aktiv Grotesk Cd, Open Sans, verdana, arial, sans-serif", size=18))
+tmplt.font.update(family="Aktiv Grotesk Cd ,Open Sans, verdana, arial, sans-serif", color=nord["PolarNight"][0])
+tmplt.xaxis.tickfont.update(family="Decima, Open Sans, verdana, arial, sans-serif")
+tmplt.yaxis.tickfont.update(family="Decima, Open Sans, verdana, arial, sans-serif")
+tmplt.yaxis.title.font.update(family="Aktiv Grotesk Cd, Open Sans, verdana, arial, sans-serif", size=16)
+tmplt.xaxis.title.font.update(family="Aktiv Grotesk Cd, Open Sans, verdana, arial, sans-serif", size=16)
 
 tmplt.yaxis.update(zeroline=False)
 
