@@ -21,5 +21,5 @@ I won't judge if you use powerpoint, but knows that you will have a very much no
 
 ### Beamer 
 
-please see the [Beamer](../SlidesWithBeamer/README.md) tutorial
+please see the [Beamer](../SlidesWithBeamer) tutorial
 
