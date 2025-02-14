@@ -35,8 +35,8 @@ If you don't care much about tweaking everything (lighting and co), there are 3 
 
 ## Creating an image
 
-Just a quick reminder. Play with to get the angle you want. Go to Render → render image, and save as a png/tiff/whatever you want. 
+Just a quick remindr. Play with to get the angle you want. Go to Render → render image, and save as a png/tiff/whatever you want. 
 
 ## Some tutorials 
 
-[![Blender Cartoonish video](https://youtu.be/rj1BpFC8rmU)]
+[![Demo CountPages alpha](https://i9.ytimg.com/vi/rj1BpFC8rmU/mqdefault.jpg?v=67afb3e0&sqp=CKzpvr0G&rs=AOn4CLB8_gnt1f2R_EtaL8yobFXYXbQxIw)](https://youtu.be/rj1BpFC8rmU?si=9B-U8giXcsKT2VlK)
