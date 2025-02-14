@@ -39,4 +39,4 @@ Just a quick remindr. Play with to get the angle you want. Go to Render → rend
 
 ## Some tutorials 
 
-[![Demo CountPages alpha](https://i9.ytimg.com/vi/rj1BpFC8rmU/mqdefault.jpg?v=67afb3e0&sqp=CKzpvr0G&rs=AOn4CLB8_gnt1f2R_EtaL8yobFXYXbQxIw)](https://youtu.be/rj1BpFC8rmU?si=9B-U8giXcsKT2VlK)
+[![Demo CountPages alpha](https://img.youtube.com/vi/rj1BpFC8rmU/0.jpg)](https://youtu.be/rj1BpFC8rmU?si=9B-U8giXcsKT2VlK)
