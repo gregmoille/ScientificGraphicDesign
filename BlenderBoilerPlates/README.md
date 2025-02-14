@@ -7,7 +7,6 @@
 ## Quick reminder for Blender and Settings
 
 
-
 ## Assets Available 
 
 In the file [`Assets.blend`](./Assets/Assests.blend), several geoemtry are defined and can be used later on in your own blender file: 
@@ -34,7 +33,10 @@ If you don't care much about tweaking everything (lighting and co), there are 3 
 
 
 
-
 ## Creating an image
 
 Just a quick reminder. Play with to get the angle you want. Go to Render → render image, and save as a png/tiff/whatever you want. 
+
+## Some tutorials 
+
+[![Blender Cartoonish video](https://youtu.be/rj1BpFC8rmU)]
