@@ -37,7 +37,7 @@ To redude the size of the bitmap figure, you can use the following steps:
     - Resolution: 500 ppi
     - Background: Transparent
     - Color Mode: RGB
-    - Anti-aliasing: Type Optimized (or Art Optimized)
+    - Anti-aliasing: Art Optimized
 
 This will probably give y ou good results. If you find that the figures became too pixely, you can try to increase the resolution to 1000 ppi. But be careful, this will increase the size of the file, so try to find a tradeoff between size and quality.
 
