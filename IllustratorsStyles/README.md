@@ -23,7 +23,6 @@
 - [IBM colorpalette](https://github.com/IBM-Design/colors/blob/master/ibm-colors.ase): comes from the IBM design language which to be honest is a must to scroll through to understand how to make unified good design. It is also consisten with the [prettyplot class](../Plotting/pyprettyplot/), which include the `ibm` class to retrieve the colors (for instance `ibm.cerulean(shade = 60)`). 
 
 
-
 # Handling bitmap figures (png, jpg, etc.)  
 
 Of course, most of the your figure will be in vector format. But sometime you will find yourself needed to put some bitmap in your system (e.g. a photo of your sample). To do so, you can use the following steps:
@@ -42,8 +41,25 @@ To redude the size of the bitmap figure, you can use the following steps:
 This will probably give y ou good results. If you find that the figures became too pixely, you can try to increase the resolution to 1000 ppi. But be careful, this will increase the size of the file, so try to find a tradeoff between size and quality.
 
 
-# Saving 
+# Graphics design consistency
 
+- **Use the same font for all your figures**. For info, here is what I use: 
+    - tick labels: Decima Regular 6pt
+    - axis labels: Aktiv Grotesk Condensed Regular 7pt
+    - legend: Aktiv Grotesk Condensed Regular  6pt
+    - Annotation: Aktiv Grotesk Condensed Regular 7pt
+    - Subplot label: Aktiv Grotesk Condensed Bold 8pt
+    - All with the same colors:  #2E3440 (true black usually not great)
+- **Be consistent in your plotting**. For instance, all my plots have the same rules: 
+    - tick length: 2pt
+    - tick width: 0.5pt
+    - axis width: 0.5pt
+    - axis color: #2E3440 (true black usually not great)
+    - unless emphasis, plot line width: 0.75pt
+- **Be consistent in your colors**. Use the same colors if it is from the same sample/datset. 
+
+
+# Saving 
 
 UNless you have very specific reason, the figure would be better off saved as a vector compatible format (pdf, svg, eps, etc...). The PDF format came a long way and is now highly prefferable for embeding with LaTeX.
 
