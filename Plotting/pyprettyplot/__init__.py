@@ -18,7 +18,7 @@ import plotly.graph_objects as go
 pio.templates.default = "plotly_white"
 from matplotlib.colors import LinearSegmentedColormap, to_hex
 from itertools import cycle
-from IPython.core.display import display, HTML
+# from IPython.core.display import display, HTML
 import warnings
 
 warnings.filterwarnings("ignore")
