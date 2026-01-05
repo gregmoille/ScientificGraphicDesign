@@ -23,6 +23,7 @@ I am not going to go over the basics of graphic design much. The only two things
 2. Make sure you understand the [meaning of color](https://webflow.com/blog/color-meanings) (e.g., red = bad, green = good, blue = calm/modern, etc.). So don't use a red color for something you want to highlight as good.
 3. Learn [how to use a grid](https://uxplanet.org/grids-in-graphic-design-a-quick-history-and-5-top-tips-29c8c0650d18).
 4. Know that not everybody sees things like you, and make sure your design is inclusive and accessible for color blindness. Use tools (pranatopia or deuteranopia mode in Adobe Illustrator) and do not solely rely on solid curves.
+5. If there is only one book to read, it's Tufte's "Visual Display of Quantitative Information." Just as Strunk & White provide what should be axioms for writing, Tufte's are the axioms for proper figure making for data display. Yet, not all can be respected because of journal style (...cough cough... Nature).
 
 Beyond that, if there are some things that are of interest, I highly recommend the following resources (and if you know me, you can probably ask me to borrow a copy of the books):
 - **Basic knowledge of graphic design**:
